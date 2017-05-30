@@ -15,7 +15,6 @@
 		67FFCF1A1EDBFEB40091D322 /* YTZTagViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF191EDBFEB40091D322 /* YTZTagViewTests.swift */; };
 		67FFCF281EDBFF450091D322 /* YTZTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF271EDBFF450091D322 /* YTZTagView.swift */; };
 		67FFCF2A1EDC02710091D322 /* YTZTagAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF291EDC02710091D322 /* YTZTagAnchorView.swift */; };
-		67FFCF2E1EDC04E40091D322 /* YTZExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF2D1EDC04E40091D322 /* YTZExtensions.swift */; };
 		67FFCF301EDC05F00091D322 /* YTZTagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF2F1EDC05F00091D322 /* YTZTagLabel.swift */; };
 		67FFCF341EDC1AFC0091D322 /* YTZTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FFCF331EDC1AFC0091D322 /* YTZTagView.xib */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		67FFCF1B1EDBFEB40091D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67FFCF271EDBFF450091D322 /* YTZTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTZTagView.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		67FFCF291EDC02710091D322 /* YTZTagAnchorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTZTagAnchorView.swift; sourceTree = "<group>"; };
-		67FFCF2D1EDC04E40091D322 /* YTZExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YTZExtensions.swift; path = ../../YTZExtensions/YTZExtensions/Extensions/YTZExtensions.swift; sourceTree = "<group>"; };
 		67FFCF2F1EDC05F00091D322 /* YTZTagLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTZTagLabel.swift; sourceTree = "<group>"; };
 		67FFCF331EDC1AFC0091D322 /* YTZTagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTZTagView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +88,6 @@
 				67FFCF241EDBFECF0091D322 /* YTZTagView */,
 				67FFCF041EDBFEB30091D322 /* AppDelegate.swift */,
 				67FFCF061EDBFEB30091D322 /* ViewController.swift */,
-				67FFCF2D1EDC04E40091D322 /* YTZExtensions.swift */,
 				67FFCF081EDBFEB30091D322 /* Main.storyboard */,
 				67FFCF0B1EDBFEB30091D322 /* Assets.xcassets */,
 				67FFCF0D1EDBFEB30091D322 /* LaunchScreen.storyboard */,
@@ -227,7 +224,6 @@
 			files = (
 				67FFCF281EDBFF450091D322 /* YTZTagView.swift in Sources */,
 				67FFCF071EDBFEB30091D322 /* ViewController.swift in Sources */,
-				67FFCF2E1EDC04E40091D322 /* YTZExtensions.swift in Sources */,
 				67FFCF2A1EDC02710091D322 /* YTZTagAnchorView.swift in Sources */,
 				67FFCF051EDBFEB30091D322 /* AppDelegate.swift in Sources */,
 				67FFCF301EDC05F00091D322 /* YTZTagLabel.swift in Sources */,
@@ -442,6 +438,7 @@
 				67FFCF201EDBFEB40091D322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67FFCF211EDBFEB40091D322 /* Build configuration list for PBXNativeTarget "YTZTagViewTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +447,7 @@
 				67FFCF231EDBFEB40091D322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
