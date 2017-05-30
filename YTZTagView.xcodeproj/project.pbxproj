@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67FFCF051EDBFEB30091D322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF041EDBFEB30091D322 /* AppDelegate.swift */; };
+		67FFCF071EDBFEB30091D322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF061EDBFEB30091D322 /* ViewController.swift */; };
+		67FFCF0A1EDBFEB30091D322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FFCF081EDBFEB30091D322 /* Main.storyboard */; };
+		67FFCF0C1EDBFEB30091D322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FFCF0B1EDBFEB30091D322 /* Assets.xcassets */; };
+		67FFCF0F1EDBFEB30091D322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FFCF0D1EDBFEB30091D322 /* LaunchScreen.storyboard */; };
+		67FFCF1A1EDBFEB40091D322 /* YTZTagViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF191EDBFEB40091D322 /* YTZTagViewTests.swift */; };
+		67FFCF281EDBFF450091D322 /* YTZTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF271EDBFF450091D322 /* YTZTagView.swift */; };
+		67FFCF2A1EDC02710091D322 /* YTZTagAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF291EDC02710091D322 /* YTZTagAnchorView.swift */; };
+		67FFCF2E1EDC04E40091D322 /* YTZExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF2D1EDC04E40091D322 /* YTZExtensions.swift */; };
+		67FFCF301EDC05F00091D322 /* YTZTagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFCF2F1EDC05F00091D322 /* YTZTagLabel.swift */; };
+		67FFCF341EDC1AFC0091D322 /* YTZTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FFCF331EDC1AFC0091D322 /* YTZTagView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67FFCF161EDBFEB40091D322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67FFCEF91EDBFEB30091D322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FFCF001EDBFEB30091D322;
+			remoteInfo = YTZTagView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67FFCF011EDBFEB30091D322 /* YTZTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTZTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FFCF041EDBFEB30091D322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67FFCF061EDBFEB30091D322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67FFCF091EDBFEB30091D322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67FFCF0B1EDBFEB30091D322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67FFCF0E1EDBFEB30091D322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67FFCF101EDBFEB30091D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FFCF151EDBFEB40091D322 /* YTZTagViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTZTagViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FFCF191EDBFEB40091D322 /* YTZTagViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTZTagViewTests.swift; sourceTree = "<group>"; };
+		67FFCF1B1EDBFEB40091D322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FFCF271EDBFF450091D322 /* YTZTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTZTagView.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		67FFCF291EDC02710091D322 /* YTZTagAnchorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTZTagAnchorView.swift; sourceTree = "<group>"; };
+		67FFCF2D1EDC04E40091D322 /* YTZExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YTZExtensions.swift; path = ../../YTZExtensions/YTZExtensions/Extensions/YTZExtensions.swift; sourceTree = "<group>"; };
+		67FFCF2F1EDC05F00091D322 /* YTZTagLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTZTagLabel.swift; sourceTree = "<group>"; };
+		67FFCF331EDC1AFC0091D322 /* YTZTagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTZTagView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FFCEFE1EDBFEB30091D322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FFCF121EDBFEB40091D322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67FFCEF81EDBFEB30091D322 = {
+			isa = PBXGroup;
+			children = (
+				67FFCF031EDBFEB30091D322 /* YTZTagView */,
+				67FFCF181EDBFEB40091D322 /* YTZTagViewTests */,
+				67FFCF021EDBFEB30091D322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67FFCF021EDBFEB30091D322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67FFCF011EDBFEB30091D322 /* YTZTagView.app */,
+				67FFCF151EDBFEB40091D322 /* YTZTagViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67FFCF031EDBFEB30091D322 /* YTZTagView */ = {
+			isa = PBXGroup;
+			children = (
+				67FFCF241EDBFECF0091D322 /* YTZTagView */,
+				67FFCF041EDBFEB30091D322 /* AppDelegate.swift */,
+				67FFCF061EDBFEB30091D322 /* ViewController.swift */,
+				67FFCF2D1EDC04E40091D322 /* YTZExtensions.swift */,
+				67FFCF081EDBFEB30091D322 /* Main.storyboard */,
+				67FFCF0B1EDBFEB30091D322 /* Assets.xcassets */,
+				67FFCF0D1EDBFEB30091D322 /* LaunchScreen.storyboard */,
+				67FFCF101EDBFEB30091D322 /* Info.plist */,
+			);
+			path = YTZTagView;
+			sourceTree = "<group>";
+		};
+		67FFCF181EDBFEB40091D322 /* YTZTagViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				67FFCF191EDBFEB40091D322 /* YTZTagViewTests.swift */,
+				67FFCF1B1EDBFEB40091D322 /* Info.plist */,
+			);
+			path = YTZTagViewTests;
+			sourceTree = "<group>";
+		};
+		67FFCF241EDBFECF0091D322 /* YTZTagView */ = {
+			isa = PBXGroup;
+			children = (
+				67FFCF271EDBFF450091D322 /* YTZTagView.swift */,
+				67FFCF331EDC1AFC0091D322 /* YTZTagView.xib */,
+				67FFCF291EDC02710091D322 /* YTZTagAnchorView.swift */,
+				67FFCF2F1EDC05F00091D322 /* YTZTagLabel.swift */,
+			);
+			path = YTZTagView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67FFCF001EDBFEB30091D322 /* YTZTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FFCF1E1EDBFEB40091D322 /* Build configuration list for PBXNativeTarget "YTZTagView" */;
+			buildPhases = (
+				67FFCEFD1EDBFEB30091D322 /* Sources */,
+				67FFCEFE1EDBFEB30091D322 /* Frameworks */,
+				67FFCEFF1EDBFEB30091D322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTZTagView;
+			productName = YTZTagView;
+			productReference = 67FFCF011EDBFEB30091D322 /* YTZTagView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67FFCF141EDBFEB40091D322 /* YTZTagViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FFCF211EDBFEB40091D322 /* Build configuration list for PBXNativeTarget "YTZTagViewTests" */;
+			buildPhases = (
+				67FFCF111EDBFEB40091D322 /* Sources */,
+				67FFCF121EDBFEB40091D322 /* Frameworks */,
+				67FFCF131EDBFEB40091D322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FFCF171EDBFEB40091D322 /* PBXTargetDependency */,
+			);
+			name = YTZTagViewTests;
+			productName = YTZTagViewTests;
+			productReference = 67FFCF151EDBFEB40091D322 /* YTZTagViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67FFCEF91EDBFEB30091D322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Taozhu Ye";
+				TargetAttributes = {
+					67FFCF001EDBFEB30091D322 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H3NT69D424;
+						ProvisioningStyle = Automatic;
+					};
+					67FFCF141EDBFEB40091D322 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H3NT69D424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67FFCF001EDBFEB30091D322;
+					};
+				};
+			};
+			buildConfigurationList = 67FFCEFC1EDBFEB30091D322 /* Build configuration list for PBXProject "YTZTagView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67FFCEF81EDBFEB30091D322;
+			productRefGroup = 67FFCF021EDBFEB30091D322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67FFCF001EDBFEB30091D322 /* YTZTagView */,
+				67FFCF141EDBFEB40091D322 /* YTZTagViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67FFCEFF1EDBFEB30091D322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FFCF0F1EDBFEB30091D322 /* LaunchScreen.storyboard in Resources */,
+				67FFCF341EDC1AFC0091D322 /* YTZTagView.xib in Resources */,
+				67FFCF0C1EDBFEB30091D322 /* Assets.xcassets in Resources */,
+				67FFCF0A1EDBFEB30091D322 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FFCF131EDBFEB40091D322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67FFCEFD1EDBFEB30091D322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FFCF281EDBFF450091D322 /* YTZTagView.swift in Sources */,
+				67FFCF071EDBFEB30091D322 /* ViewController.swift in Sources */,
+				67FFCF2E1EDC04E40091D322 /* YTZExtensions.swift in Sources */,
+				67FFCF2A1EDC02710091D322 /* YTZTagAnchorView.swift in Sources */,
+				67FFCF051EDBFEB30091D322 /* AppDelegate.swift in Sources */,
+				67FFCF301EDC05F00091D322 /* YTZTagLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FFCF111EDBFEB40091D322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FFCF1A1EDBFEB40091D322 /* YTZTagViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67FFCF171EDBFEB40091D322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67FFCF001EDBFEB30091D322 /* YTZTagView */;
+			targetProxy = 67FFCF161EDBFEB40091D322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67FFCF081EDBFEB30091D322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FFCF091EDBFEB30091D322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67FFCF0D1EDBFEB30091D322 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FFCF0E1EDBFEB30091D322 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67FFCF1C1EDBFEB40091D322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67FFCF1D1EDBFEB40091D322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67FFCF1F1EDBFEB40091D322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H3NT69D424;
+				INFOPLIST_FILE = YTZTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TaozhuYe.YTZTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67FFCF201EDBFEB40091D322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H3NT69D424;
+				INFOPLIST_FILE = YTZTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TaozhuYe.YTZTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		67FFCF221EDBFEB40091D322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H3NT69D424;
+				INFOPLIST_FILE = YTZTagViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TaozhuYe.YTZTagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTZTagView.app/YTZTagView";
+			};
+			name = Debug;
+		};
+		67FFCF231EDBFEB40091D322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H3NT69D424;
+				INFOPLIST_FILE = YTZTagViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TaozhuYe.YTZTagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTZTagView.app/YTZTagView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67FFCEFC1EDBFEB30091D322 /* Build configuration list for PBXProject "YTZTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FFCF1C1EDBFEB40091D322 /* Debug */,
+				67FFCF1D1EDBFEB40091D322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FFCF1E1EDBFEB40091D322 /* Build configuration list for PBXNativeTarget "YTZTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FFCF1F1EDBFEB40091D322 /* Debug */,
+				67FFCF201EDBFEB40091D322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67FFCF211EDBFEB40091D322 /* Build configuration list for PBXNativeTarget "YTZTagViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FFCF221EDBFEB40091D322 /* Debug */,
+				67FFCF231EDBFEB40091D322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67FFCEF91EDBFEB30091D322 /* Project object */;
+}
